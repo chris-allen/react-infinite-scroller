@@ -1,30 +1,30 @@
 React Infinite Scroller
 =======================
 
-[![Travis](https://img.shields.io/travis/CassetteRocks/react-infinite-scroller.svg?style=flat-square)](https://travis-ci.org/CassetteRocks/react-infinite-scroller)
-[![npm](https://img.shields.io/npm/dt/react-infinite-scroller.svg?style=flat-square)](https://www.npmjs.com/package/react-infinite-scroller)
+[![Build Status](https://travis-ci.org/chris-allen/react-infinite-scroll-up-n-down.svg?branch=master)](https://travis-ci.org/chris-allen/react-infinite-scroll-up-n-down)
+[![npm](https://img.shields.io/npm/dt/react-infinite-scroll-up-n-down.svg?style=flat-square)](https://www.npmjs.com/package/react-infinite-scroll-up-n-down)
 [![React Version](https://img.shields.io/badge/React-%5E0.14.9%20%7C%7C%20%5E15.3.0%20%7C%7C%20%5E16.0.0-blue.svg?style=flat-square)](https://www.npmjs.com/package/react)
-[![npm](https://img.shields.io/npm/v/react-infinite-scroller.svg?style=flat-square)](https://www.npmjs.com/package/react-infinite-scroller)
-[![npm](https://img.shields.io/npm/l/react-infinite-scroller.svg?style=flat-square)](https://github.com/CassetteRocks/react-infinite-scroller/blob/master/LICENSE)
+[![npm](https://img.shields.io/npm/v/react-infinite-scroll-up-n-down.svg?style=flat-square)](https://www.npmjs.com/package/react-infinite-scroll-up-n-down)
+[![npm](https://img.shields.io/npm/l/react-infinite-scroll-up-n-down.svg?style=flat-square)](https://github.com/chris-allen/react-infinite-scroll-up-n-down/blob/master/LICENSE)
 
 Infinitely load content using a React Component. This fork maintains a simple, lightweight infinite scroll package that supports both `window` and scrollable elements.
 
-- [Demo](https://cassetterocks.github.io/react-infinite-scroller/demo/)
-- [Demo Source](https://github.com/CassetteRocks/react-infinite-scroller/blob/master/docs/src/index.js)
+- [Demo](https://chris-allen.github.io/react-infinite-scroll-up-n-down/demo/)
+- [Demo Source](https://github.com/chris-allen/react-infinite-scroll-up-n-down/blob/master/docs/src/index.js)
 
 ## Installation
 
 ```
-npm install react-infinite-scroller --save
+npm install react-infinite-scroll-up-n-down --save
 ```
 ```
-yarn add react-infinite-scroller
+yarn add react-infinite-scroll-up-n-down
 ```
 
 ## How to use
 
 ```js
-import InfiniteScroll from 'react-infinite-scroller';
+import InfiniteScroll from 'react-infinite-scroll-up-n-down';
 ```
 
 ### Window scroll events
