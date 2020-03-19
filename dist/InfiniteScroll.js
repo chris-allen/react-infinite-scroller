@@ -113,7 +113,7 @@ var InfiniteScroll = (function(_Component) {
     {
       key: 'componentDidUpdate',
       value: function componentDidUpdate() {
-        if (this.props.isReverse && this.loadMore) {
+        if (this.props.isReverse && this.loadMore && this.adjustReverseScroll) {
           var parentElement = this.getParentElement(this.scrollComponent);
           parentElement.scrollTop =
             parentElement.scrollHeight -
@@ -418,7 +418,8 @@ InfiniteScroll.propTypes = {
   getScrollParent: _propTypes2.default.func,
   threshold: _propTypes2.default.number,
   useCapture: _propTypes2.default.bool,
-  useWindow: _propTypes2.default.bool
+  useWindow: _propTypes2.default.bool,
+  adjustReverseScroll: _propTypes2.default.bool
 };
 InfiniteScroll.defaultProps = {
   element: 'div',
@@ -427,6 +428,7 @@ InfiniteScroll.defaultProps = {
   pageStart: 0,
   ref: null,
   threshold: 250,
+  adjustReverseScroll: true,
   useWindow: true,
   isReverse: false,
   useCapture: false,
