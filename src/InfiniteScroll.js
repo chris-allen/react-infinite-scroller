@@ -15,7 +15,8 @@ export default class InfiniteScroll extends Component {
     getScrollParent: PropTypes.func,
     threshold: PropTypes.number,
     useCapture: PropTypes.bool,
-    useWindow: PropTypes.bool
+    useWindow: PropTypes.bool,
+    adjustReverseScroll: PropTypes.bool
   };
 
   static defaultProps = {
@@ -25,6 +26,7 @@ export default class InfiniteScroll extends Component {
     pageStart: 0,
     ref: null,
     threshold: 250,
+    adjustReverseScroll: true,
     useWindow: true,
     isReverse: false,
     useCapture: false,
@@ -47,7 +49,7 @@ export default class InfiniteScroll extends Component {
   }
 
   componentDidUpdate() {
-    if (this.props.isReverse && this.loadMore) {
+    if (this.props.isReverse && this.loadMore && this.adjustReverseScroll) {
       const parentElement = this.getParentElement(this.scrollComponent);
       parentElement.scrollTop =
         parentElement.scrollHeight -
