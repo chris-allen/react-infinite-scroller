@@ -255,6 +255,7 @@ export default class InfiniteScroll extends Component {
       hasMore,
       initialLoad,
       isReverse,
+      adjustReverseScroll,
       loader,
       loadMore,
       pageStart,
