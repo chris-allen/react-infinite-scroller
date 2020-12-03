@@ -1,7 +1,7 @@
 React Infinite Scroll Up n Down
 ===============================
 
-[![Build Status](https://travis-ci.org/chris-allen/react-infinite-scroll-up-n-down.svg?branch=master)](https://travis-ci.org/chris-allen/react-infinite-scroll-up-n-down)
+[![Build Status](https://travis-ci.com/chris-allen/react-infinite-scroll-up-n-down.svg?branch=master)](https://travis-ci.com/chris-allen/react-infinite-scroll-up-n-down)
 [![npm](https://img.shields.io/npm/dt/react-infinite-scroll-up-n-down.svg?style=flat-square)](https://www.npmjs.com/package/react-infinite-scroll-up-n-down)
 [![React Version](https://img.shields.io/badge/React-%5E0.14.9%20%7C%7C%20%5E15.3.0%20%7C%7C%20%5E16.0.0-blue.svg?style=flat-square)](https://www.npmjs.com/package/react)
 [![npm](https://img.shields.io/npm/v/react-infinite-scroll-up-n-down.svg?style=flat-square)](https://www.npmjs.com/package/react-infinite-scroll-up-n-down)
